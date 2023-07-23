@@ -30,6 +30,11 @@ const routes: Array<RouteRecordRaw> = [
     name: "fail",
     component: Fail,
   },
+  {
+    path: "/token-issue",
+    name: "token-issue",
+    component: indexVue,
+  },
 ];
 
 const router = createRouter({
